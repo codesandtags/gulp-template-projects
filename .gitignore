@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+# IDEA files
+.idea/
+*.iml
+
+# Generated files
+build/
+
+# packages node
+node_modules/
+npm-debug.log
