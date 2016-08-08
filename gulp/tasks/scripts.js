@@ -7,7 +7,7 @@ import uglify       from 'gulp-uglify';
 import concat       from 'gulp-concat';
 import browserSync  from 'browser-sync';
 
-gulp.task(config.production.scripts.task, function () {
+gulp.task(config.development.scripts.task, function () {
     gulp.src(config.js.src)
         .pipe(babel(config.js.babel))
         .pipe(concat(config.js.concat))

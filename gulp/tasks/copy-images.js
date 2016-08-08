@@ -4,8 +4,8 @@ import config   from '../config';
 import gulp     from 'gulp';
 import imagemin from 'gulp-imagemin';
 
-gulp.task(config.production.images.task, function () {
+gulp.task(config.development.images.task, function () {
     gulp.src(config.images.src)
         .pipe(imagemin())
-        .pipe(gulp.dest(config.production.images.dest));
+        .pipe(gulp.dest(config.development.images.dest));
 });

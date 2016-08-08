@@ -4,10 +4,8 @@
 
 ## Installation
 
-1. *Clone* or *Download* the git project. 
-
+1. **Clone** or **Download** the [git project](https://github.com/codesandtags/gulp-template-projects). 
 2. [Use npm](https://docs.npmjs.com/cli/install) to install all dependencies.
-
 ```sh
 npm install
 ```
@@ -15,20 +13,12 @@ npm install
 
 ## Usage
 
-
-
 #### Run development tasks:
 By default *gulp* command run the *development* task.
 
 ```
 gulp
-```
-
-```
 gulp development
-```
-
-```
 gulp production
 ```
 

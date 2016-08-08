@@ -1,3 +1,7 @@
+/*
+    This file contains the main configuration for the gulp tasks. Please feel free
+    to modify it according your needs.
+ */
 export default {
     "common": {
         "lint": {
@@ -5,7 +9,7 @@ export default {
         }
     },
 
-    "production": {
+    "development": {
         "task": "dev",
         "baseDir": "build/",
         "html": {
