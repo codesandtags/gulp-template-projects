@@ -4,12 +4,12 @@
 
 ## Installation
 
-1. **Clone** or **Download** the [git project](https://github.com/codesandtags/gulp-template-projects). 
-2. [Use npm](https://docs.npmjs.com/cli/install) to install all dependencies.
+1)   **Clone** or **Download** the [git project](https://github.com/codesandtags/gulp-template-projects). 
+2)   [Use npm](https://docs.npmjs.com/cli/install) to install all dependencies.
 ```sh
 npm install
 ```
-3. Once you finish to install the dependencies you can start to use it.
+3)  Once you finish to install the dependencies you can start to use it.
 
 ## Usage
 
